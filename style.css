@@ -59,6 +59,11 @@ h2 {
   text-shadow: 0px 1px 3px rgba(0,0,0,0.25);
 }
 
+h3 {
+  color: #000;
+  font-size: 22px;
+}
+
 strong {
   font-weight: bold;
 }
@@ -106,10 +111,12 @@ a:hover, a:active, a:focus {
   font-size: 22px;
   z-index: 9999;
   color: #473d68;
+  color: rgb(64, 171, 90);
 }
 .discover a:hover {
-  background: #473d68;
+  background: rgb(64, 171, 90);
   color: white;
+  box-shadow: 0px 0px 10px 0px;
 }
 .version {
   margin: 2px auto;
@@ -346,7 +353,7 @@ li.active {
     top: 0;
     padding-top: 10em;
     background-image: url(),linear-gradient(#4CAF50, #009688);
-    background: linear-gradient(to bottom, #473d68 0%, #c54066 71%);
+    /*background: linear-gradient(to bottom, #473d68 0%, #c54066 71%);*/
     width: 100%;
     padding-bottom: 10em;
 
@@ -376,6 +383,7 @@ li.active {
     background-position: 50% 0;
     background-repeat: no-repeat;
     background: rgba(103,62,104,0.1);
+    background: rgba(0, 150, 136, 0.1);
 }
 
 .row-transparent .container {
@@ -408,6 +416,7 @@ li.active {
     margin: 0 auto;
     display: block;
     color: #473d68;
+    color: rgb(0, 150, 136);
 }
 
 /*.caption {
@@ -460,6 +469,7 @@ li.active {
 i.ion-social-dropbox {
     font-size: 7em;
     color: #473d68;
+    color: rgb(0, 150, 136);
 } 
 
 .feature p {
@@ -547,6 +557,7 @@ footer{
 	height: 5em;
 	padding-top: 1em;
 	background: #473d68;
+  background: rgb(0, 150, 136);
 	margin-top: 8em;
 	color: #fff;
 }
@@ -572,6 +583,7 @@ header.nav-header {
     width: 100%;
     height: 80px;
     background: rgba(103,62,104,0.6);
+    background: rgba(64, 171, 90, 0.6);
 }
 
 nav.main-navigation {
@@ -595,6 +607,8 @@ li.item-nav {
 a.navigation-link:hover {
     text-decoration: none;
     color: #c54066;
+    color: rgb(0, 150, 136);
+    color: #000;
 }
 
 a.navigation-link {
@@ -605,6 +619,7 @@ a.navigation-link {
 .call-action {
     padding: 10px 0 50px;
     background: rgb(103,62,104);
+    background: rgb(0, 150, 136);
 }
 
 .call-action i {
@@ -619,12 +634,13 @@ a.navigation-link {
 }
 
 .call-action a {
-    padding: 20px 100px;
+    padding: 15px 60px;
     border-radius: 10px;
     background: #fff;
     font-size: 20px;
     text-decoration: none;
     color: rgb(103,62,104);
+    color: rgb(0, 150, 136);
 }
 
 @media ( max-width: 768px ) {
@@ -660,5 +676,9 @@ a.navigation-link {
     padding: 0 8px;
     font-size: 16px;
     right: -30px;
+  }
+
+  .logo {
+    font-size: 
   }
 }
